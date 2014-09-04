@@ -1,0 +1,13 @@
+.\queueoverwrite.o: ..\demo-includes\Minimal\QueueOverwrite.c
+.\queueoverwrite.o: ..\FreeRTOS\include\FreeRTOS.h
+.\queueoverwrite.o: D:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\queueoverwrite.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\queueoverwrite.o: ..\FreeRTOS\include\projdefs.h
+.\queueoverwrite.o: ..\..\CORTEX_M4F_STM32F407ZG-SK\FreeRTOSConfig.h
+.\queueoverwrite.o: ..\FreeRTOS\include\portable.h
+.\queueoverwrite.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\queueoverwrite.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\queueoverwrite.o: ..\FreeRTOS\include\task.h
+.\queueoverwrite.o: ..\FreeRTOS\include\list.h
+.\queueoverwrite.o: ..\FreeRTOS\include\queue.h
+.\queueoverwrite.o: ..\demo-includes\include\QueueOverwrite.h

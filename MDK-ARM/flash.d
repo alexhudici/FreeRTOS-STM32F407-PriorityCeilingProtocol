@@ -1,0 +1,14 @@
+.\flash.o: ..\demo-includes\Minimal\flash.c
+.\flash.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\flash.o: ..\FreeRTOS\include\FreeRTOS.h
+.\flash.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\flash.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\flash.o: ..\FreeRTOS\include\projdefs.h
+.\flash.o: ..\..\FreeRTOS-STM32F407VG\FreeRTOSConfig.h
+.\flash.o: ..\FreeRTOS\include\portable.h
+.\flash.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\flash.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\flash.o: ..\FreeRTOS\include\task.h
+.\flash.o: ..\FreeRTOS\include\list.h
+.\flash.o: ..\demo-includes\include\partest.h
+.\flash.o: ..\demo-includes\include\flash.h

@@ -1,0 +1,15 @@
+.\comtest.o: ..\demo-includes\Minimal\comtest.c
+.\comtest.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\comtest.o: ..\FreeRTOS\include\FreeRTOS.h
+.\comtest.o: D:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\comtest.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\comtest.o: ..\FreeRTOS\include\projdefs.h
+.\comtest.o: ..\..\CORTEX_M4F_STM32F407ZG-SK\FreeRTOSConfig.h
+.\comtest.o: ..\FreeRTOS\include\portable.h
+.\comtest.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\comtest.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\comtest.o: ..\FreeRTOS\include\task.h
+.\comtest.o: ..\FreeRTOS\include\list.h
+.\comtest.o: ..\demo-includes\include\serial.h
+.\comtest.o: ..\demo-includes\include\comtest.h
+.\comtest.o: ..\demo-includes\include\partest.h

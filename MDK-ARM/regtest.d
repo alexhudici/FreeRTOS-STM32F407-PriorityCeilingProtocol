@@ -1,0 +1,1 @@
+.\regtest.o: ..\RegTest.s

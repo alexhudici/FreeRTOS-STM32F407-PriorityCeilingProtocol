@@ -1,0 +1,15 @@
+.\semtest.o: ..\demo-includes\Minimal\semtest.c
+.\semtest.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\semtest.o: ..\FreeRTOS\include\FreeRTOS.h
+.\semtest.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\semtest.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\semtest.o: ..\FreeRTOS\include\projdefs.h
+.\semtest.o: ..\..\FreeRTOS-STM32F407VG\FreeRTOSConfig.h
+.\semtest.o: ..\FreeRTOS\include\portable.h
+.\semtest.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\semtest.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\semtest.o: ..\FreeRTOS\include\task.h
+.\semtest.o: ..\FreeRTOS\include\list.h
+.\semtest.o: ..\FreeRTOS\include\semphr.h
+.\semtest.o: ..\FreeRTOS\include\queue.h
+.\semtest.o: ..\demo-includes\include\semtest.h

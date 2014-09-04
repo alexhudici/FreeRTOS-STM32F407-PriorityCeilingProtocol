@@ -1,0 +1,11 @@
+.\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c
+.\port.o: ..\FreeRTOS\include\FreeRTOS.h
+.\port.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\port.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\port.o: ..\FreeRTOS\include\projdefs.h
+.\port.o: ..\..\FreeRTOS-STM32F407VG\FreeRTOSConfig.h
+.\port.o: ..\FreeRTOS\include\portable.h
+.\port.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\port.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\port.o: ..\FreeRTOS\include\task.h
+.\port.o: ..\FreeRTOS\include\list.h

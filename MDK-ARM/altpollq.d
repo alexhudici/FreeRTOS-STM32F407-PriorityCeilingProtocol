@@ -1,0 +1,14 @@
+.\altpollq.o: ..\demo-includes\Minimal\AltPollQ.c
+.\altpollq.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\altpollq.o: ..\FreeRTOS\include\FreeRTOS.h
+.\altpollq.o: D:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\altpollq.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\altpollq.o: ..\FreeRTOS\include\projdefs.h
+.\altpollq.o: ..\..\CORTEX_M4F_STM32F407ZG-SK\FreeRTOSConfig.h
+.\altpollq.o: ..\FreeRTOS\include\portable.h
+.\altpollq.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\altpollq.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\altpollq.o: ..\FreeRTOS\include\task.h
+.\altpollq.o: ..\FreeRTOS\include\list.h
+.\altpollq.o: ..\FreeRTOS\include\queue.h
+.\altpollq.o: ..\demo-includes\include\AltPollQ.h

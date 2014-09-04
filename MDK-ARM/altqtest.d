@@ -1,0 +1,15 @@
+.\altqtest.o: ..\demo-includes\Minimal\AltQTest.c
+.\altqtest.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\altqtest.o: ..\FreeRTOS\include\FreeRTOS.h
+.\altqtest.o: D:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\altqtest.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\altqtest.o: ..\FreeRTOS\include\projdefs.h
+.\altqtest.o: ..\..\CORTEX_M4F_STM32F407ZG-SK\FreeRTOSConfig.h
+.\altqtest.o: ..\FreeRTOS\include\portable.h
+.\altqtest.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\altqtest.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\altqtest.o: ..\FreeRTOS\include\task.h
+.\altqtest.o: ..\FreeRTOS\include\list.h
+.\altqtest.o: ..\FreeRTOS\include\queue.h
+.\altqtest.o: ..\FreeRTOS\include\semphr.h
+.\altqtest.o: ..\demo-includes\include\AltQTest.h

@@ -1,0 +1,14 @@
+.\blockq.o: ..\demo-includes\Minimal\BlockQ.c
+.\blockq.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\blockq.o: ..\FreeRTOS\include\FreeRTOS.h
+.\blockq.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\blockq.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\blockq.o: ..\FreeRTOS\include\projdefs.h
+.\blockq.o: ..\..\FreeRTOS-STM32F407VG\FreeRTOSConfig.h
+.\blockq.o: ..\FreeRTOS\include\portable.h
+.\blockq.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\blockq.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\blockq.o: ..\FreeRTOS\include\task.h
+.\blockq.o: ..\FreeRTOS\include\list.h
+.\blockq.o: ..\FreeRTOS\include\queue.h
+.\blockq.o: ..\demo-includes\include\BlockQ.h

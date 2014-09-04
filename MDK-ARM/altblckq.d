@@ -1,0 +1,14 @@
+.\altblckq.o: ..\demo-includes\Minimal\AltBlckQ.c
+.\altblckq.o: D:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\altblckq.o: ..\FreeRTOS\include\FreeRTOS.h
+.\altblckq.o: D:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\altblckq.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\altblckq.o: ..\FreeRTOS\include\projdefs.h
+.\altblckq.o: ..\..\CORTEX_M4F_STM32F407ZG-SK\FreeRTOSConfig.h
+.\altblckq.o: ..\FreeRTOS\include\portable.h
+.\altblckq.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\altblckq.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\altblckq.o: ..\FreeRTOS\include\task.h
+.\altblckq.o: ..\FreeRTOS\include\list.h
+.\altblckq.o: ..\FreeRTOS\include\queue.h
+.\altblckq.o: ..\demo-includes\include\AltBlckQ.h

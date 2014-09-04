@@ -1,0 +1,13 @@
+.\death.o: ..\demo-includes\Minimal\death.c
+.\death.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\death.o: ..\FreeRTOS\include\FreeRTOS.h
+.\death.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\death.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\death.o: ..\FreeRTOS\include\projdefs.h
+.\death.o: ..\..\FreeRTOS-STM32F407VG\FreeRTOSConfig.h
+.\death.o: ..\FreeRTOS\include\portable.h
+.\death.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\death.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\death.o: ..\FreeRTOS\include\task.h
+.\death.o: ..\FreeRTOS\include\list.h
+.\death.o: ..\demo-includes\include\death.h

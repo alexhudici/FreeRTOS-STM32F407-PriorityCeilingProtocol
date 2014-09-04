@@ -1,0 +1,129 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Project:</h2>
+C:\Users\Danie_000\SkyDrive\Documents\SYSC5701\FreeRTOS-STM32F407VG\MDK-ARM\FreeRTOS.uvprojx
+Project File Date:  04/01/2014
+
+<h2>Output:</h2>
+Rebuild target 'Target 1'
+compiling main.c...
+..\main.c(294): warning:  #223-D: function "printf" declared implicitly
+        printf("start run\n");
+..\main.c(298): warning:  #223-D: function "xQueueCreatePCP" declared implicitly
+        xPCPsLow = (SemaphoreHandle_t) xSemaphoreCreatePCP(tskIDLE_PRIORITY + 2UL);
+..\main.c(318): warning:  #167-D: argument of type "const signed char *" is incompatible with parameter of type "const char *const"
+                xTaskCreate( vLowTask, (const signed char*)"LowTask",
+..\main.c(320): warning:  #167-D: argument of type "const signed char *" is incompatible with parameter of type "const char *const"
+                xTaskCreate( vMedTask, (const signed char*)"MedTask",
+..\main.c(322): warning:  #167-D: argument of type "const signed char *" is incompatible with parameter of type "const char *const"
+                xTaskCreate( vHighTask, (const signed char*)"HighTask",
+..\main.c(375): warning:  #223-D: function "printf" declared implicitly
+        printf("\nlow takes pcplow");
+..\main.c(399): warning:  #223-D: function "printf" declared implicitly
+        printf("\nmedium unblocked & start");
+..\main.c(420): warning:  #223-D: function "printf" declared implicitly
+        printf("\nhigh unblocked & start");
+..\main.c(678): warning:  #177-D: function "prvOptionallyCreateComprehensveTestApplication" was declared but never referenced
+  static void prvOptionallyCreateComprehensveTestApplication( void )
+..\main.c: 9 warnings, 0 errors
+compiling ParTest.c...
+compiling stm32f4xx_it.c...
+compiling death.c...
+compiling integer.c...
+compiling semtest.c...
+assembling RegTest.s...
+..\RegTest.s(517): warning: A1581W: Added 2 bytes of padding at address 0x3ca
+compiling recmutex.c...
+compiling PollQ.c...
+compiling GenQTest.c...
+compiling flop.c...
+compiling flash.c...
+compiling dynamic.c...
+compiling countsem.c...
+compiling blocktim.c...
+compiling BlockQ.c...
+compiling DebugOut.c...
+DebugOut.c(7): warning:  #1-D: last line of file ends without a newline
+  }
+DebugOut.c: 1 warning, 0 errors
+compiling stm32f4_discovery.c...
+compiling croutine.c...
+compiling event_groups.c...
+compiling list.c...
+compiling queue.c...
+..\FreeRTOS\queue.c(464): warning:  #223-D: function "printf" declared implicitly
+                        printf("Create queue & pcp object failed");
+..\FreeRTOS\queue.c(1393): warning:  #223-D: function "printf" declared implicitly
+                                        printf("\nTask's priority > system ceiling");
+..\FreeRTOS\queue.c(1411): warning:  #223-D: function "printf" declared implicitly
+                                                        printf("\nWas holding PCP with ceiling equal to system");
+..\FreeRTOS\queue.c(1423): warning:  #223-D: function "printf" declared implicitly
+                                                        printf("\nAnother resource is causing the ceiling. Task now blocking.");
+..\FreeRTOS\queue.c(1598): warning:  #223-D: function "printf" declared implicitly
+                                        printf("Task blocked by another resource, being placed on that resources wait list");
+..\FreeRTOS\queue.c(1603): warning:  #223-D: function "printf" declared implicitly
+                                        printf("Task blocked by this resource, being placed on its wait list");
+..\FreeRTOS\queue.c(1891): warning:  #223-D: function "uxTaskBasePriorityGet" declared implicitly
+                                UBaseType_t defaultPrio = uxTaskBasePriorityGet(currentTask);
+..\FreeRTOS\queue.c(1914): warning:  #174-D: expression has no effect
+                                                        defaultPrio == pxQueue->blkPrio;
+..\FreeRTOS\queue.c(1920): warning:  #223-D: function "vTaskPCPPriorityDisinherit" declared implicitly
+                                vTaskPCPPriorityDisinherit( ( void * )pxQueue->pxPCPHolder , defaultPrio);
+..\FreeRTOS\queue.c: 9 warnings, 0 errors
+compiling tasks.c...
+..\FreeRTOS\tasks.c(2220): warning:  #223-D: function "printf" declared implicitly
+                        printf("\n%s task being placed on suspended task list", pxCurrentTCB->pcTaskName);
+..\FreeRTOS\tasks.c: 1 warning, 0 errors
+compiling timers.c...
+compiling heap_2.c...
+compiling port.c...
+..\FreeRTOS\portable\RVDS\ARM_CM4F\port.c(490): warning: A1581W: Added 2 bytes of padding at address 0xa2
+compiling misc.c...
+compiling stm32f4xx_exti.c...
+compiling stm32f4xx_gpio.c...
+compiling stm32f4xx_rcc.c...
+compiling stm32f4xx_syscfg.c...
+assembling startup_stm32f40xx.s...
+compiling system_stm32f4xx.c...
+linking...
+Program Size: Code=25550 RO-data=566 RW-data=488 ZI-data=78176  
+".\FreeRTOS.axf" - 0 Error(s), 22 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                http://www.keil.com/pack/ARM.CMSIS.3.20.4.pack
+                ARM::CMSIS:CORE:3.20.0
+                Cortex Microcontroller Software Interface Standard (CMSIS) CORE, DSP, RTOS, Driver
+   * Component: CORE Version: 3.20.0
+
+Package Vendor: Keil
+                http://www.keil.com/pack/Keil.STM32F4xx_DFP.1.0.5.pack
+                Keil::Device:Startup:1.0.0
+                STMicroelectronics STM32F4 Series Device Support, Drivers and Examples
+   * Component: Startup Version: 1.0.0
+
+<h2>Collection of Component include folders:</h2>
+  C:\Users\Danie_000\SkyDrive\Documents\SYSC5701\FreeRTOS-STM32F407VG\MDK-ARM\RTE
+  C:\Users\Danie_000\SkyDrive\Documents\SYSC5701\FreeRTOS-STM32F407VG\MDK-ARM\RTE\Device\STM32F407VG
+  C:\Keil\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include
+  C:\Keil\ARM\PACK\Keil\STM32F4xx_DFP\1.0.5\Device\Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE:3.20.0
+
+   * Component: Keil::Device:Startup:1.0.0
+      Include file:  Device\Include\stm32f4xx.h
+      Source file:   Device\Source\ARM\startup_stm32f40xx.s
+      Source file:   Device\Source\system_stm32f4xx.c
+      Include file:  RTE_Driver\Config\RTE_Device.h
+Load "C:\\Users\\Danie_000\\SkyDrive\\Documents\\SYSC5701\\FreeRTOS-STM32F407VG\\MDK-ARM\\FreeRTOS.axf" 
+Erase Done.
+Programming Done.
+Verify OK.
+</pre>
+</body>
+</html>

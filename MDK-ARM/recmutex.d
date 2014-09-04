@@ -1,0 +1,14 @@
+.\recmutex.o: ..\demo-includes\Minimal\recmutex.c
+.\recmutex.o: ..\FreeRTOS\include\FreeRTOS.h
+.\recmutex.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\recmutex.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\recmutex.o: ..\FreeRTOS\include\projdefs.h
+.\recmutex.o: ..\..\FreeRTOS-STM32F407VG\FreeRTOSConfig.h
+.\recmutex.o: ..\FreeRTOS\include\portable.h
+.\recmutex.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\recmutex.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\recmutex.o: ..\FreeRTOS\include\task.h
+.\recmutex.o: ..\FreeRTOS\include\list.h
+.\recmutex.o: ..\FreeRTOS\include\semphr.h
+.\recmutex.o: ..\FreeRTOS\include\queue.h
+.\recmutex.o: ..\demo-includes\include\recmutex.h

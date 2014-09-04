@@ -1,0 +1,13 @@
+.\crhook.o: ..\demo-includes\Minimal\crhook.c
+.\crhook.o: ..\FreeRTOS\include\FreeRTOS.h
+.\crhook.o: D:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\crhook.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\crhook.o: ..\FreeRTOS\include\projdefs.h
+.\crhook.o: ..\..\CORTEX_M4F_STM32F407ZG-SK\FreeRTOSConfig.h
+.\crhook.o: ..\FreeRTOS\include\portable.h
+.\crhook.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\crhook.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\crhook.o: ..\FreeRTOS\include\croutine.h
+.\crhook.o: ..\FreeRTOS\include\list.h
+.\crhook.o: ..\FreeRTOS\include\queue.h
+.\crhook.o: ..\demo-includes\include\crhook.h

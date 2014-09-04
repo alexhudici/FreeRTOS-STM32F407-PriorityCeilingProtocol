@@ -1,0 +1,14 @@
+.\crflash.o: ..\demo-includes\Minimal\crflash.c
+.\crflash.o: ..\FreeRTOS\include\FreeRTOS.h
+.\crflash.o: D:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\crflash.o: D:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\crflash.o: ..\FreeRTOS\include\projdefs.h
+.\crflash.o: ..\..\CORTEX_M4F_STM32F407ZG-SK\FreeRTOSConfig.h
+.\crflash.o: ..\FreeRTOS\include\portable.h
+.\crflash.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\crflash.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\crflash.o: ..\FreeRTOS\include\croutine.h
+.\crflash.o: ..\FreeRTOS\include\list.h
+.\crflash.o: ..\FreeRTOS\include\queue.h
+.\crflash.o: ..\demo-includes\include\partest.h
+.\crflash.o: ..\demo-includes\include\crflash.h

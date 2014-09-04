@@ -1,0 +1,14 @@
+.\countsem.o: ..\demo-includes\Minimal\countsem.c
+.\countsem.o: ..\FreeRTOS\include\FreeRTOS.h
+.\countsem.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\countsem.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\countsem.o: ..\FreeRTOS\include\projdefs.h
+.\countsem.o: ..\..\FreeRTOS-STM32F407VG\FreeRTOSConfig.h
+.\countsem.o: ..\FreeRTOS\include\portable.h
+.\countsem.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\countsem.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\countsem.o: ..\FreeRTOS\include\task.h
+.\countsem.o: ..\FreeRTOS\include\list.h
+.\countsem.o: ..\FreeRTOS\include\semphr.h
+.\countsem.o: ..\FreeRTOS\include\queue.h
+.\countsem.o: ..\demo-includes\include\countsem.h

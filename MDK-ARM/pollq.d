@@ -1,0 +1,14 @@
+.\pollq.o: ..\demo-includes\Minimal\PollQ.c
+.\pollq.o: C:\Keil\ARM\ARMCC\bin\..\include\stdlib.h
+.\pollq.o: ..\FreeRTOS\include\FreeRTOS.h
+.\pollq.o: C:\Keil\ARM\ARMCC\bin\..\include\stddef.h
+.\pollq.o: C:\Keil\ARM\ARMCC\bin\..\include\stdint.h
+.\pollq.o: ..\FreeRTOS\include\projdefs.h
+.\pollq.o: ..\..\FreeRTOS-STM32F407VG\FreeRTOSConfig.h
+.\pollq.o: ..\FreeRTOS\include\portable.h
+.\pollq.o: ..\FreeRTOS\portable\RVDS\ARM_CM4F\portmacro.h
+.\pollq.o: ..\FreeRTOS\include\mpu_wrappers.h
+.\pollq.o: ..\FreeRTOS\include\task.h
+.\pollq.o: ..\FreeRTOS\include\list.h
+.\pollq.o: ..\FreeRTOS\include\queue.h
+.\pollq.o: ..\demo-includes\include\PollQ.h
